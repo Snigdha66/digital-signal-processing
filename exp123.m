@@ -1,7 +1,7 @@
 %% 1. Write a Matlab program to design an FIR filter with
 %
-% a. 10 – taps
-% b. 25 – taps
+% a. 10 â€“ taps
+% b. 25 â€“ taps
 % Cut off frequency is ?/4. Use Rectangular window.
 % Plot the magnitude
 %% a
@@ -57,7 +57,3 @@ xlabel('w')
 ylabel('|H(w)|');
 title('magnitude response of fir filter');
 legend('rectwin','hamming');
-%% 3. Write a Matlab program to determine and sketch the response of a system 
-% represented by its impulse response sequence h(n) =  [1,1,1,1],
-% to an input x(n) =  [1,1,1,1].
-%%  
